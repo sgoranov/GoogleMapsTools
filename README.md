@@ -20,6 +20,25 @@ Run composer update to fetch and install
 php composer.phar update
 ````
 
+## Using with Zend Framework 2
+
+Modify config/application.config.php adding GoogleMapsTools in modules and module_listener_options/module_paths
+
+```
+'modules' => array(
+    'Application',
+    'GoogleMapsTools',
+),
+
+// These are various options for the listeners attached to the ModuleManager
+'module_listener_options' => array(
+    'module_paths' => array(
+        './module',
+        './vendor',
+        'GoogleMapsTools' => './vendor/sgoranov/google-maps-tools',
+    ),
+```
+
 ## Usage
 
 Use the Google Maps Geocoding API call to search by address:

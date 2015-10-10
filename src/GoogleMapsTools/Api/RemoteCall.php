@@ -1,8 +1,6 @@
 <?php
 namespace GoogleMapsTools\Api;
 
-use GoogleMapsTools\ApiException;
-
 abstract class RemoteCall
 {
     protected $result = null;
@@ -17,6 +15,8 @@ abstract class RemoteCall
         curl_setopt_array($curl, array(
             CURLOPT_RETURNTRANSFER => 1,
             CURLOPT_URL => $url,
+            CURLOPT_SSL_VERIFYHOST => 0,
+            CURLOPT_SSL_VERIFYPEER => 0,
         ));
 
         $resp = curl_exec($curl);
