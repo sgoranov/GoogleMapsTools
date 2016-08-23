@@ -1,8 +1,7 @@
 <?php
-namespace GoogleMapsTools\Api;
+namespace sgoranov\GoogleMapsTools\Api;
 
-use GoogleMapsTools\Api\RemoteCall;
-use GoogleMapsTools\Point;
+use sgoranov\GoogleMapsTools\Point;
 
 class Distancematrix extends RemoteCall
 {

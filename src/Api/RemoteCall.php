@@ -1,7 +1,7 @@
 <?php
-namespace GoogleMapsTools\Api;
+namespace sgoranov\GoogleMapsTools\Api;
 
-use GoogleMapsTools\ApiException;
+use sgoranov\GoogleMapsTools\ApiException;
 
 abstract class RemoteCall
 {

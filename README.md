@@ -9,16 +9,8 @@ Simeon Goranov - sgoranov@gmail.com
 Update your composer.json adding following
 
 ```
-"require": {
-    "sgoranov/google-maps-tools": "dev-master"
-},
+$ composer require sgoranov/google-maps-tools
 ```
-
-Run composer update to fetch and install
-
-```
-php composer.phar update
-````
 
 ## Usage
 
@@ -73,17 +65,9 @@ $distance = $calc->calculate();
 
 ## Unit testing
 
-To run all the tests execute following from GoogleMapsTools/src sirectory
+To run the test locally execute the following:
 
 ```
-phpunit GoogleMapsTools/Test/AllTests.php
+vendor/phpunit/phpunit/phpunit
 ```
-
-To run one specific test only execute the following from GoogleMapsTools/src sirectory
-
-```
-phpunit GoogleMapsTools/Test/Api/DistancematrixTest.php
-```
-
-
 

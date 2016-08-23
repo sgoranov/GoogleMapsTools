@@ -1,7 +1,7 @@
 <?php
-namespace GoogleMapsTools;
+namespace sgoranov\GoogleMapsTools;
 
-use GoogleMapsTools\Api\Distancematrix;
+use sgoranov\GoogleMapsTools\Api\Distancematrix;
 
 class DistanceCalc
 {

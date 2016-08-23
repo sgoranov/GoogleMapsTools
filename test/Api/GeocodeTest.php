@@ -1,10 +1,8 @@
 <?php
-namespace GoogleMapsTools\Test\Api;
+namespace sgoranov\GoogleMapsTools\Test\Api;
 
-require_once ('GoogleMapsTools/Test/autoload.php');
-require_once ('PHPUnit/Framework/TestCase.php');
 use \PHPUnit_Framework_TestCase as PHPUnit_Framework_TestCase;
-use GoogleMapsTools\Api\Geocode;
+use sgoranov\GoogleMapsTools\Api\Geocode;
 
 class GeocodeTest extends PHPUnit_Framework_TestCase
 {

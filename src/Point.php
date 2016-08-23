@@ -1,5 +1,5 @@
 <?php
-namespace GoogleMapsTools;
+namespace sgoranov\GoogleMapsTools;
 
 class Point
 {

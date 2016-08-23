@@ -1,5 +1,5 @@
 <?php
-namespace GoogleMapsTools\Api;
+namespace sgoranov\GoogleMapsTools\Api;
 
 class ApiException extends \Exception
 {
