@@ -1,4 +1,7 @@
 # GoogleMapsTools
+
+[![Build Status](https://travis-ci.org/sgoranov/GoogleMapsTools.svg?branch=master)](https://travis-ci.org/sgoranov/GoogleMapsTools)
+
 PHP wrapper for Google Maps API
 
 ## Author
